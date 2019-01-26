@@ -1,0 +1,17 @@
+
+body {
+	background-color:#e5c0f7;
+
+}
+h1 {
+	font-family:'palatino';
+}
+header{
+	border-style: inset;
+	background-image: url("rose.jpg");
+}
+nav ol li{
+	display: inline;
+	padding: 10px 50px;
+	margin-top: 15px;
+}
