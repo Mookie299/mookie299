@@ -3,15 +3,30 @@ body {
 	background-color:#e5c0f7;
 
 }
-h1 {
+
+h1:not(#head){
 	font-family:'palatino';
+	border-style: groove;
+	background-image: url("yellow.jpg");
+	color: #ffffff;
 }
 header{
 	border-style: inset;
 	background-image: url("rose.jpg");
+	color: #ffffff;
 }
 nav ol li{
 	display: inline;
 	padding: 10px 50px;
 	margin-top: 15px;
+}
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+ 
+p {
+	display: block;
+	margin-right: 25px;
 }
